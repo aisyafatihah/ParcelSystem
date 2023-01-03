@@ -1,0 +1,143 @@
+/* @import "bourbon";
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600); */
+* {
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+}
+
+body {
+  font-size: 100%;
+  overflow-y: scroll;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  background-color: #fefefe;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* .app{
+  height: 100vh;
+} */
+
+/* -------------
+Sidebar
+----------------*/
+
+.sidebar {
+  position: absolute;
+  /* //width: 33.3333%; */
+  width: 18em;
+  height: 100%;
+  top: 0;
+  overflow: hidden;
+  background-color: #19222a;
+  /* -webkit-transform: translateZ(0); */
+  visibility: visible;
+  /* -webkit-backface-visibility: hidden; */
+}
+
+
+.app aside header {
+  color: #24428F;
+  background-color: white;
+  border-style: groove;
+  width: 100%;
+  display: block;
+
+  padding: 0.75em 1em;
+  font-size: 1.6em;
+}
+
+
+/* -------------
+Sidebar Nav
+----------------*/
+
+.sidebar-nav {
+  position: fixed;
+  width: 15em;
+  background-color: #24428F;
+  height: 100%;
+  font-weight: 400;
+  font-size: 1.2em;
+  overflow: auto;
+  padding-bottom: 6em;
+  /* z-index: 9; */
+  overflow: hidden;
+  /* -webkit-overflow-scrolling: touch; */
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-nav li {
+  margin-left: 0;
+  padding-left: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.sidebar-nav li a {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.9em;
+  padding: 1.05em;
+  position: relative;
+  display: inline-block;
+
+}
+
+.sidebar-nav a:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100%;
+}
+
+.sidebar-nav a:active {
+  background-color: rgba(0, 0, 0, 0.9);
+  box-shadow: box-shadow;
+  width: 100%;
+}
+
+/* -------------
+Sidebar: icons
+----------------*/
+.sidebar-nav li a i {
+  font-size: 1.8em;
+  padding-right: 0.5em;
+  width: 9em;
+  display: inline;
+  vertical-align: middle;
+}
+
+.active {
+  /* background-color: #6C7CB3; */
+  border-style: groove;
+  width: 100%;
+}
+
+@media screen and (max-width:800px) {
+
+  .left,
+  .main,
+  .right {
+    width: 100%;
+  }
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,129 @@
+/* Google Font Import - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+section{
+    float: right;
+    width: 80%;
+    padding: 1.5cm;
+    /*padding-left: 1.5cm;*/
+}
+
+.sidebar{
+    height: 100%;
+    position: fixed;
+    float: left;
+    width: 20%;
+    background: #11101D;
+    /*margin: 0 1.5%;*/
+    padding: 6px 14px;
+    transition: all 0.5s ease;
+}
+.sidebar .logo_content .logo{
+    color: #fff;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    pointer-events: none;
+
+}
+.sidebar .active .logo_content .logo{
+    opacity: 1;
+    pointer-events: none;
+}
+.sidebar.active #btn{
+    left: 50%;
+}
+.logo_content .logo i{
+    font-size: 29px;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+.logo_content .logo .logo-name{
+    font-size: 20px;
+    font-weight: 400;
+}
+.sidebar #btn{
+    position: absolute;
+    color: #fff;
+    left: 90%;
+    top: 6px;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translate(-50%);
+}
+.sidebar ul{
+    margin-top: 20px;
+}
+.sidebar .active{
+    width: 240px;
+}
+
+.sidebar ul li{
+    height: 50px;
+    position: relative;
+    width: 100%;
+    margin: 0 5px;
+    line-height: 50px;
+    list-style: none;
+    border-radius: 12px;
+}
+/*.sidebar ul li .tooltip{
+    position: absolute;
+    left: 122px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 6px;
+    line-height: 35px;
+    text-align: center;
+    height: 35px;
+    width: 200px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    transition: 0s;
+    opacity: 0;
+    pointer-events: none;
+}
+.sidebar ul li:hover .tooltip{
+    transition: all 0.5s ease;
+    opacity: 1;
+    top: 50%;
+}*/
+.sidebar ul li a{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    border-radius: 12px;
+}
+.sidebar ul li a:hover{
+    color: white;
+    background: orange;
+}
+
+
+.sidebar ul li a i {
+    height: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+    text-align: center;
+    margin-left: -0.5cm;
+    margin-right: 0.5cm;
+}

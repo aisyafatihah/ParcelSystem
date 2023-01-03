@@ -1,0 +1,35 @@
+table {
+    border-collapse: collapse;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 3rem;
+}
+
+.card {
+    background: #fff;
+    border-radius: 5px;
+}
+
+.card-header,
+.card-body {
+    padding: 1rem;
+}
+
+thead tr {
+    border-bottom: 2px solid #f0f0f0;
+}
+
+thead td {
+    font-weight: 700;
+}
+
+td {
+    padding: .5rem 1rem;
+    font-size: .9rem;
+    text-align: center;
+}

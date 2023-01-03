@@ -1,0 +1,95 @@
+.button {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.center {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
+
+section {
+	float: right;
+	width: 72%;
+	padding: auto;
+	padding-top: 5px;
+
+
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.search {
+	width: 40%;
+	margin-top: 3%;
+	display: flex;
+	margin-left: -3.5%;
+}
+
+.searchBtn {
+	display: flex;
+	border: 10px;
+	border-radius: 5px;
+	padding-top: 7px;
+	padding-left: 12px;
+	margin-left: 5px;
+	height: 1cm;
+	width: 2.5cm;
+}
+
+.searchBtn:hover {
+	color: antiquewhite;
+	background-color: black;
+}
+
+.top {
+	background-color: orange;
+	width: 100%;
+}
+
+
+.cards {
+	margin-top: 3cm;
+	margin-left: 3cm;
+}
+
+@media screen and (max-width:800px) {
+
+	.left,
+	.main,
+	.right {
+		width: 100%;
+	}
+}
+
+.notifyBtn {
+	float: left;
+	border: 10px;
+	border-radius: 5px;
+	padding-top: 7px;
+	padding-bottom: 20px;
+	/*margin-left: 5px; */
+	padding-left: 7px;
+	/* margin: auto; */
+	height: 1cm;
+	width: 1.5cm;
+	margin-bottom: 20px;
+	margin-top: -0.5cm;
+	background-color: black;
+	color: antiquewhite;
+}
+
+.notifyBtn:hover {
+	color: black;
+	background-color: antiquewhite;
+}
+
+h1 {
+	margin-left: -3%;
+	margin-bottom: 5%;
+	margin-top: 1%;
+}

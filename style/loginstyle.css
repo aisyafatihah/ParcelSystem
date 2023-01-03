@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #24428F;
+}
+
+.row {
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+}
+
+img {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.btn1 {
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: #24428F;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn1:hover {
+    background: white;
+    border: 1px solid;
+    transition: 0.25s;
+    color: #24428F;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 5px;
+
+}
+
+input {
+    outline-color: #24428F;
+}
+
+.input-control label {
+    margin-bottom: 0px;
+}
+
+.input-control input {
+
+    outline-color: #24428F;
+    border: 2px solid #e5e5e5;
+    border-radius: 4px;
+    display: block;
+    padding: 5px;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 10px;
+    height: 13px;
+    margin-right: 3px;
+    margin-left: 5px;
+    margin-top: -15px;
+}
+
+.input-control i {
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:800px) {
+
+    .left,
+    .main,
+    .right {
+        width: 100%;
+    }
+}
